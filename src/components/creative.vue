@@ -352,10 +352,10 @@ a {
   color: white;
 }
 
+
 .txt-notfull-white {
   color: rgba(255, 255, 255, .8);
 }
-
 
 .uppercase {
   text-transform: uppercase;
@@ -365,7 +365,7 @@ a {
   color: @accent-color;
   display: inline-block;
   font-size: 1.2em;
-  margin-left: 5px;
+  margin-left: 8.5px;
 }
 
 .section-content {
