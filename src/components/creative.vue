@@ -510,4 +510,100 @@ a {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 580px) {
+  .left-column {
+      width: 100vw;
+      height: 283px;
+      padding: 25px;
+      position: relative;
+    }
+
+  .txt-notfull-white {
+    max-width: 90%;
+    margin: 12px 0;
+  }
+
+  .multi-line-txt {
+    margin: 8px 0;
+  }
+
+  .block-marged {
+    margin: 11px 0;
+  }
+
+  .social-container {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    margin: 0;
+  }
+
+  .left-column-bg {
+    padding: 0;
+  }
+
+  .right-column {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  .section {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .left-column {
+      height: 300px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+  .left-column {
+      height: 320px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+  .left-column {
+      height: 340px;
+    }
+
+  .social-container {
+      bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+  .left-column {
+      height: 350px;
+    }
+
+  .social-container {
+      bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 353px) {
+  .left-column {
+      height: 360px;
+    }
+
+  .social-container {
+      bottom: 10px;
+      right: 80px;
+    }
+}
+
+@media screen and (max-width: 323px) {
+  .left-column {
+      height: 380px;
+    }
+
+  .social-container {
+      bottom: 10px;
+      right: 75px;
+    }
+}
+
 </style>
