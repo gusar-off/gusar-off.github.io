@@ -59,5 +59,17 @@ export default {
     margin-right: auto;
     overflow: hidden;
   }
+
+  @media screen and (max-width: 718px) {
+    .page {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .resume {
+      flex-direction: column;
+    }
+  }
   </style>
   
