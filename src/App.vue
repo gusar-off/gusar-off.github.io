@@ -52,7 +52,7 @@ export default {
   .page {
     background: white;
     position: relative;
-    width: 21cm;
+    width: 19cm;
     height: 100%;
     display: block;
     margin-left: auto;
