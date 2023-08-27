@@ -120,6 +120,23 @@
 
       <div class="education-section section">
         <div class="icon">
+          <i class="material-icons">record_voice_over</i>
+          <span class="section-headline">{{ lang.educational_activity }}</span>
+        </div>
+
+        <div class="section-content">
+          <a v-for="(educational_activity, index) in person.educational_activity" :key="index"
+            class="section-content__item">
+
+            <span class="section-content__header"> {{ educational_activity.company }} </span>
+            <span class="section-content__text"> {{ educational_activity.timeperiod }} </span>
+            <span class="section-content__text--light"> {{ educational_activity.description }} </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="education-section section">
+        <div class="icon">
           <i class="material-icons">school</i>
           <span class="section-headline">{{ lang.education }}</span>
         </div>

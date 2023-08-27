@@ -5,6 +5,7 @@ const lang = {
     bornIn: 'в г.',
     experience: 'Опыт',
     education: 'Образование',
+    educational_activity: 'Образовательная деятельность',
     skills: 'Навыки',
     projects: 'Проекты',
     contributions: 'взносы',
